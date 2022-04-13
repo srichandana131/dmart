@@ -1,0 +1,233 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.logo-img{
+  height: 4em;
+    width: 10em;
+    
+}
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 6px 2px;
+}
+
+#bg-light{
+  background-color: white;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  width: 3PX;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+#iconsize{
+  width: 1.6em;
+  height: 1.6em;
+  
+    margin-left: 3px;
+    position: relative;
+    right: -70px;
+    border-radius: 10px;
+}
+.nav-link:hover {
+  opacity: 0.9;
+  background-color: rgb(206, 233, 206);
+}
+.nav-item{
+  margin-right: 1em;
+}
+.navbar{
+  height: 6em;
+  color: whitesmoke;
+}
+.nav-link{ 
+  margin-left: 1em;
+  margin-top: 10px;
+  color:black;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.scroll-div{
+  background-color: rgb(88, 187, 88);
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  height: 2.5em;
+}
+
+.scroll-text{
+  display: inline-block;
+  animation: marquee 20s linear infinite;
+  color: white;
+  font-weight: 500;
+}
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+.img1{
+  height: 450px;
+  width: 1500px;
+}
+.head-text{
+  font-weight: 600;
+  color: black;
+  font-size: 20px;
+  text-decoration: underline
+  
+}
+.img2{
+  height: 150px;
+  width: 500px;
+}
+.btn{
+  border-radius: 20px;
+  font-size: 15px;
+}
+.textbox{
+  text-align: initial;
+}
+.box-shadow{
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  margin-bottom: 32px;
+}
+.image-container{
+  margin: 0px;
+  text-align: initial;
+}
+.text-align{
+  text-align: initial;
+}
+.img3{
+  height: 200px;
+  width: 100%;
+}
+.click-hover:hover {
+box-shadow:2px 6px 4px -4px rgb(0 0 0 / 20%), 2px 4px 4px 2px rgb(0 0 0 / 14%), 2px 4px 8px 2px rgb(0 0 0 / 12%) ;
+}
+.img4{
+  height: 250px;
+  width: 100%;
+  border-radius: 8px;
+}
+.layer-text{
+  color: #fff;
+  width: 100%;
+  bottom: 2.2em;
+  opacity: 0.8;
+  padding: 8px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  background-color: #374553;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.bottom-map{
+  background-color: #374553;
+  opacity: 0.6;
+  height: 16em;
+  position: relative;
+  bottom: 16em;
+}
+.text-bottom{
+  color: white;
+  font-weight: 400;
+  position: relative;
+  top: 9em;
+  text-align: initial;
+}
+  .last-div{
+    background-color: rgb(61, 63, 61);
+    margin: 10 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 3em;
+    position: relative;
+    bottom: 16em;
+  }
+  .last-text{
+    color: #fff;
+    font-weight: 300;
+    
+  }
+
+  .text-align{
+    margin-left: 3em;
+    margin-right: 3em;
+    text-align: justify;
+  }
+
+  .color-div{
+    background-color: rgb(206, 228, 206);
+   height: 10em;
+
+  }
+
+  .para-align{
+    text-align: center;
+  }
+  .color2-div{
+    background-color: rgb(223, 231, 223);
+    height: 20em;
+  }
+
+  .card-align{
+    width: 20em;
+    height: 18em;
+  }
+  .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: rgb(214, 228, 216);
+ }
